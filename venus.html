@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Planets fact site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <p>THE PLANETS</p>
+        <ul class="mobile-links">
+          <li>
+            <div class="circle mercuryCircle">&nbsp;</div>
+            <a href="index.html">MERCURY</a>
+          </li>
+          <li>
+            <div class="circle venusCircle">&nbsp;</div>
+            <a href="venus.html">VENUS</a>
+          </li>
+          <li>
+            <div class="circle earthCircle">&nbsp;</div>
+            <a href="earth.html">EARTH</a>
+          </li>
+          <li>
+            <div class="circle marsCircle">&nbsp;</div>
+            <a href="mars.html">MARS</a>
+          </li>
+          <li>
+            <div class="circle jupiterCircle">&nbsp;</div>
+            <a href="jupiter.html">JUPITER</a>
+          </li>
+          <li>
+            <div class="circle saturnCircle">&nbsp;</div>
+            <a href="saturn.html">SATURN</a>
+          </li>
+          <li>
+            <div class="circle uranusCircle">&nbsp;</div>
+            <a href="uranus.html">URANUS</a>
+          </li>
+          <li>
+            <div class="circle neptuneCircle">&nbsp;</div>
+            <a href="neptune.html">NEPTUNE</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">MERCURY</a></li>
+          <li><a href="venus.html">VENUS</a></li>
+          <li><a href="earth.html">EARTH</a></li>
+          <li><a href="mars.html">MARS</a></li>
+          <li><a href="jupiter.html">JUPITER</a></li>
+          <li><a href="saturn.html">SATURN</a></li>
+          <li><a href="uranus.html">URANUS</a></li>
+          <li><a href="neptune.html">NEPTUNE</a></li>
+        </ul>
+      </div>
+      <div class="mobile-nav">
+        <div class="mobile-icons">
+          <img
+            src="./assets/icon-hamburger.svg"
+            alt="hamburger icon"
+            class="hamburgerIcon"
+          />
+          <span class="mobile-close">X</span>
+        </div>
+      </div>
+    </nav>
+    <hr role="contentinfo" class="hr-line" />
+    <main class="main-container">
+      <div class="main-content__left">
+        <img src="./assets/planet-venus.svg" alt="planet " class="planet-img" />
+        <img
+          src="./assets/planet-venus-internal.svg"
+          alt="planet-internal"
+          class="internal-img"
+        />
+        <img
+          src="./assets/geology-venus.png"
+          alt="planet geology "
+          class="geology-img"
+        />
+      </div>
+      <div class="main-content__right">
+        <div class="main-content__heading">
+          <h1>VENUS</h1>
+          <p id="content" class="overview-content">
+            Venus is the second planet from the Sun. It is named after the Roman
+            goddess of love and beauty. As the brightest natural object in
+            Earth's night sky after the Moon, Venus can cast shadows and can be,
+            on rare occasions, visible to the naked eye in broad daylight.
+          </p>
+          <p class="internal-content">
+            The similarity in size and density between Venus and Earth suggests
+            they share a similar internal structure: a core, mantle, and crust.
+            Like that of Earth, Venusian core is most likely at least partially
+            liquid because the two planets have been cooling at about the same
+            rate.
+          </p>
+          <p class="surface-content">
+            Much of the Venusian surface appears to have been shaped by volcanic
+            activity. Venus has several times as many volcanoes as Earth, and it
+            has 167 large volcanoes that are over 100 km (60 mi) across. The
+            only volcanic complex of this size on Earth is the Big Island of
+            Hawaii.
+          </p>
+          <div class="wiki-link">
+            <h2>Source:</h2>
+
+            <a
+              id="wiki-link"
+              class="overview-wikiLink"
+              href="https://en.wikipedia.org/wiki/Venus"
+              target="_blank"
+              >Wikipedia</a
+            >
+            <a
+              class="internal-wikiLink"
+              href="https://en.wikipedia.org/wiki/Venus#Internal_structure"
+              target="_blank"
+              >Wikipedia</a
+            >
+            <a
+              class="surface-wikiLink"
+              href=" https://en.wikipedia.org/wiki/Venus#Surface_geology"
+              target="_blank"
+              >Wikipedia</a
+            >
+
+            <a
+              href="https://en.wikipedia.org/wiki/Venus_(planet)"
+              target="_blank"
+              ><img src="./assets/icon-source.svg" alt="icon source"
+            /></a>
+          </div>
+        </div>
+        <div class="main-content__linkBtns">
+          <div id="button1" class="link-btn__box" data-color="#eda249">
+            <h3>01</h3>
+            <h3>OVERVIEW</h3>
+          </div>
+          <div id="button2" class="link-btn__box" data-color="#eda249">
+            <h3>02</h3>
+            <h3>INTERNAL STRUCTURE</h3>
+          </div>
+          <div id="button3" class="link-btn__box" data-color="#eda249">
+            <h3>03</h3>
+            <h3>SURFACE GEOLOGY</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-box">
+          <p>ROTATION TIME</p>
+          <h4>243</h4>
+        </div>
+        <div class="footer-box">
+          <p>DAYS REVOLUTION TIME</p>
+          <h4>224.7</h4>
+        </div>
+        <div class="footer-box">
+          <p>DAYS RADIUS</p>
+          <h4>6,051.8 KM</h4>
+        </div>
+        <div class="footer-box">
+          <p>AVERAGE TEMP</p>
+          <h4>471°c</h4>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Planets fact site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <p>THE PLANETS</p>
+        <ul class="mobile-links">
+          <li>
+            <div class="circle mercuryCircle">&nbsp;</div>
+            <a href="index.html">MERCURY</a>
+          </li>
+          <li>
+            <div class="circle venusCircle">&nbsp;</div>
+            <a href="venus.html">VENUS</a>
+          </li>
+          <li>
+            <div class="circle earthCircle">&nbsp;</div>
+            <a href="earth.html">EARTH</a>
+          </li>
+          <li>
+            <div class="circle marsCircle">&nbsp;</div>
+            <a href="mars.html">MARS</a>
+          </li>
+          <li>
+            <div class="circle jupiterCircle">&nbsp;</div>
+            <a href="jupiter.html">JUPITER</a>
+          </li>
+          <li>
+            <div class="circle saturnCircle">&nbsp;</div>
+            <a href="saturn.html">SATURN</a>
+          </li>
+          <li>
+            <div class="circle uranusCircle">&nbsp;</div>
+            <a href="uranus.html">URANUS</a>
+          </li>
+          <li>
+            <div class="circle neptuneCircle">&nbsp;</div>
+            <a href="neptune.html">NEPTUNE</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">MERCURY</a></li>
+          <li><a href="venus.html">VENUS</a></li>
+          <li><a href="earth.html">EARTH</a></li>
+          <li><a href="mars.html">MARS</a></li>
+          <li><a href="jupiter.html">JUPITER</a></li>
+          <li><a href="saturn.html">SATURN</a></li>
+          <li><a href="uranus.html">URANUS</a></li>
+          <li><a href="neptune.html">NEPTUNE</a></li>
+        </ul>
+      </div>
+      <div class="mobile-nav">
+        <div class="mobile-icons">
+          <img
+            src="./assets/icon-hamburger.svg"
+            alt="hamburger icon"
+            class="hamburgerIcon"
+          />
+          <span class="mobile-close">X</span>
+        </div>
+      </div>
+    </nav>
+    <hr role="contentinfo" class="hr-line" />
+    <main class="main-container">
+      <div class="main-content__left">
+        <img
+          src="./assets/planet-uranus.svg"
+          alt="planet "
+          class="planet-img"
+        />
+        <img
+          src="./assets/planet-uranus-internal.svg"
+          alt="planet-internal"
+          class="internal-img"
+        />
+        <img
+          src="./assets/geology-uranus.png"
+          alt="planet geology "
+          class="geology-img"
+        />
+      </div>
+      <div class="main-content__right">
+        <div class="main-content__heading">
+          <h1>URANUS</h1>
+          <p id="content" class="overview-content">
+            Uranus is the seventh planet from the Sun. Its name is a reference
+            to the Greek god of the sky, Uranus according to Greek mythology,
+            was the great-grandfather of Ares. It has the third-largest
+            planetary radius and fourth-largest planetary mass in the Solar
+            System.
+          </p>
+          <p class="internal-content">
+            The standard model of Uranus's structure is that it consists of
+            three layers: a rocky (silicate/iron–nickel) core in the centre, an
+            icy mantle in the middle and an outer gaseous hydrogen/helium
+            envelope. The core is relatively small, with a mass of only 0.55
+            Earth masses.
+          </p>
+          <p class="surface-content">
+            The composition of Uranus's atmosphere is different from its bulk,
+            consisting mainly of molecular hydrogen and helium. The helium molar
+            fraction, i.e. the number of helium atoms per molecule of gas, is
+            0.15±0.03 in the upper troposphere.
+          </p>
+          <div class="wiki-link">
+            <h2>Source:</h2>
+
+            <a id="wiki-link" class="overview-wikiLink" href="" target="_blank"
+              >Wikipedia</a
+            >
+            <a class="internal-wikiLink" href="" target="_blank">Wikipedia</a>
+            <a class="surface-wikiLink" href="" target="_blank">Wikipedia</a>
+
+            <a href=" https://en.wikipedia.org/wiki/Uranus" target="_blank"
+              ><img src="./assets/icon-source.svg" alt="icon source"
+            /></a>
+          </div>
+        </div>
+        <div class="main-content__linkBtns">
+          <div id="button1" class="link-btn__box" data-color="#1ec2a4">
+            <h3>01</h3>
+            <h3>OVERVIEW</h3>
+          </div>
+          <div id="button2" class="link-btn__box" data-color="#1ec2a4">
+            <h3>02</h3>
+            <h3>INTERNAL STRUCTURE</h3>
+          </div>
+          <div id="button3" class="link-btn__box" data-color="#1ec2a4">
+            <h3>03</h3>
+            <h3>SURFACE GEOLOGY</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-box">
+          <p>ROTATION TIME</p>
+          <h4>17.2</h4>
+        </div>
+        <div class="footer-box">
+          <p>YEARS REVOLUTION TIME</p>
+          <h4>84</h4>
+        </div>
+        <div class="footer-box">
+          <p>YEARS RADIUS</p>
+          <h4>25,362 KM</h4>
+        </div>
+        <div class="footer-box">
+          <p>AVERAGE TEMP</p>
+          <h4>-195°c</h4>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

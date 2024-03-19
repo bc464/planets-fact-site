@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Planets fact site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <p>THE PLANETS</p>
+        <ul class="mobile-links">
+          <li>
+            <div class="circle mercuryCircle">&nbsp;</div>
+            <a href="index.html">MERCURY</a>
+          </li>
+          <li>
+            <div class="circle venusCircle">&nbsp;</div>
+            <a href="venus.html">VENUS</a>
+          </li>
+          <li>
+            <div class="circle earthCircle">&nbsp;</div>
+            <a href="earth.html">EARTH</a>
+          </li>
+          <li>
+            <div class="circle marsCircle">&nbsp;</div>
+            <a href="mars.html">MARS</a>
+          </li>
+          <li>
+            <div class="circle jupiterCircle">&nbsp;</div>
+            <a href="jupiter.html">JUPITER</a>
+          </li>
+          <li>
+            <div class="circle saturnCircle">&nbsp;</div>
+            <a href="saturn.html">SATURN</a>
+          </li>
+          <li>
+            <div class="circle uranusCircle">&nbsp;</div>
+            <a href="uranus.html">URANUS</a>
+          </li>
+          <li>
+            <div class="circle neptuneCircle">&nbsp;</div>
+            <a href="neptune.html">NEPTUNE</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">MERCURY</a></li>
+          <li><a href="venus.html">VENUS</a></li>
+          <li><a href="earth.html">EARTH</a></li>
+          <li><a href="mars.html">MARS</a></li>
+          <li><a href="jupiter.html">JUPITER</a></li>
+          <li><a href="saturn.html">SATURN</a></li>
+          <li><a href="uranus.html">URANUS</a></li>
+          <li><a href="neptune.html">NEPTUNE</a></li>
+        </ul>
+      </div>
+      <div class="mobile-nav">
+        <div class="mobile-icons">
+          <img
+            src="./assets/icon-hamburger.svg"
+            alt="hamburger icon"
+            class="hamburgerIcon"
+          />
+          <span class="mobile-close">X</span>
+        </div>
+      </div>
+    </nav>
+    <hr role="contentinfo" class="hr-line" />
+    <main class="main-container">
+      <div class="main-content__left">
+        <img
+          src="./assets/planet-jupiter.svg"
+          alt="planet "
+          class="planet-img"
+        />
+        <img
+          src="./assets/planet-jupiter-internal.svg"
+          alt="planet-internal"
+          class="internal-img"
+        />
+        <img
+          src="./assets/geology-jupiter.png"
+          alt="planet geology "
+          class="geology-img"
+        />
+      </div>
+      <div class="main-content__right">
+        <div class="main-content__heading">
+          <h1>JUPITER</h1>
+          <p id="content" class="overview-content">
+            Jupiter is the fifth planet from the Sun and the largest in the
+            Solar System. It is a gas giant with a mass two and a half times
+            that of all the other planets in the Solar System combined, but less
+            than one-thousandth the mass of the Sun.
+          </p>
+          <p class="internal-content">
+            When the Juno arrived in 2016, it found that Jupiter has a very
+            diffuse core that mixes into its mantle. A possible cause is an
+            impact from a planet of about ten Earth masses a few million years
+            after Jupiter's formation, which would have disrupted an originally
+            solid Jovian core.
+          </p>
+          <p class="surface-content">
+            The best known feature of Jupiter is the Great Red Spot, a
+            persistent anticyclonic storm located 22° south of the equator. It
+            is known to have existed since at least 1831, and possibly since
+            1665.
+          </p>
+          <div class="wiki-link">
+            <h2>Source:</h2>
+
+            <a id="wiki-link" class="overview-wikiLink" href="" target="_blank"
+              >Wikipedia</a
+            >
+            <a class="internal-wikiLink" href="" target="_blank">Wikipedia</a>
+            <a class="surface-wikiLink" href="" target="_blank">Wikipedia</a>
+
+            <a href=" https://en.wikipedia.org/wiki/Jupiter" target="_blank"
+              ><img src="./assets/icon-source.svg" alt="icon source"
+            /></a>
+          </div>
+        </div>
+        <div class="main-content__linkBtns">
+          <div id="button1" class="link-btn__box" data-color="#d83a34">
+            <h3>01</h3>
+            <h3>OVERVIEW</h3>
+          </div>
+          <div id="button2" class="link-btn__box" data-color="#d83a34">
+            <h3>02</h3>
+            <h3>INTERNAL STRUCTURE</h3>
+          </div>
+          <div id="button3" class="link-btn__box" data-color="#d83a34">
+            <h3>03</h3>
+            <h3>SURFACE GEOLOGY</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-box">
+          <p>ROTATION TIME</p>
+          <h4>9.93</h4>
+        </div>
+        <div class="footer-box">
+          <p>HOURS REVOLUTION TIME</p>
+          <h4>11.86</h4>
+        </div>
+        <div class="footer-box">
+          <p>YEARS RADIUS</p>
+          <h4>66,911 KM</h4>
+        </div>
+        <div class="footer-box">
+          <p>AVERAGE TEMP</p>
+          <h4>-108°c</h4>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

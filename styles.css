@@ -324,6 +324,9 @@ h2 {
 
     align-content: center;
   }
+  .main-content__left {
+    margin-bottom: 30px;
+  }
 
   .main-content__right {
     width: 90%;
